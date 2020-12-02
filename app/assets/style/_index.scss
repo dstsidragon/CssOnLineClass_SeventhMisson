@@ -1,0 +1,407 @@
+
+/*-------------Index-------------*/
+.banner{
+    background:url('../images/banner.png') no-repeat center center;
+    background-size: cover;
+    height: 840px;
+    
+}
+.containerContent{
+    font-family:Noto sans,Regular;
+}
+.servicetcontentList{
+    width: 100%;
+}
+@keyframes swing{
+    15%{transform: translateX(15px)};
+    40%{transform: translateX(-15px)};
+    65%{transform: translateX(12px)};
+    85%{transform: translateX(-12px)};
+    100%{transform: translateX(0px)};
+}
+.servicetcontentImg:hover{
+    
+    animation: swing 1s infinite;
+}
+.servicetcontentItem{
+    width:20%;
+}
+/*陰影效果*/
+.classificationLinkWord:hover{
+    box-shadow: 10px 10px 5px rgba(0, 0, 0,0.8);
+}
+
+
+.classificationImg{
+    width: 53%;
+}
+.classificationLink{
+    width: 43%;
+}
+.co-branding{
+    background: center center url('../images/bg.png');
+}
+.DoubleA{
+    width: 47.5%;
+    height: 472px;
+    background: center center url('../images/product-8.png');
+    opacity: 0.5;
+    background-size: cover;
+}
+
+.Youth{
+    width: 47.5%;
+    height: 472px;
+    background: center center url('../images/product-9.png');
+    opacity: 0.5;
+    background-size: cover;
+}
+.DoubleA:hover,.Youth:hover{
+    opacity: 1;
+}
+.feedbackContent{
+    width: 24%;
+}
+.contactForm{
+    width: 730px;
+}
+.formCheck{
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+}
+
+.formButton{
+    width: 354px;
+    height: 52px;
+    cursor: pointer;
+    -webkit-appearance: none;  /* Safari 和 Chrome，常用於iOS下移除內建樣式 */
+    -moz-appearance: none;     /* FireFox */
+    appearance: none;
+}
+.formButton {
+	position: relative;
+	border: 1px solid rgba(0,0,0,0.5);
+	transition: all 0.5s linear;
+}
+.formButton:hover{
+    background-color:white;
+    color:red;
+    border-radius: 25px;
+	transition: all 0.5s linear;  
+}
+.formButton:active{
+    border-radius: 0;
+}
+
+
+/*-------------------- RWD --------------------*/
+
+/*---- 992~768 Pad----*/
+@media(max-width: 992px) {
+    
+    
+    /*-------------Index-------------*/
+    .banner{
+        background:url('../images/banner-sm.png') no-repeat center center;
+        background-size: cover;
+    }
+    .containerTittle{
+        font-size:48px;
+    }
+    .containerContent{
+        font-size: 20px;
+    }
+    .servicetcontent .container{
+        padding-top: 40px;
+        padding-bottom: 64px;
+    }
+    .servicetcontentTittle{
+        font-size: 32px;
+    }
+    .servicetcontentList{
+        flex-wrap: wrap;
+    }
+    .servicetcontentItem{
+        width: 40%;
+        margin-bottom: 40px;
+    }
+    .order_1{
+        order: -1;
+    }
+    .servicetcontentImg{
+        margin-bottom: 16px;
+    }
+    .servicetcontentItem h3{
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    .servicetcontentItem p{
+        font-size: 16px;
+    }
+        
+    .classification{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .classificationTittle{
+        font-size: 32px;
+        margin-bottom: 32px;
+    }
+    .classificationLink img{
+        width: 32px;
+    }
+    .classificationLinkWord{
+        font-size: 28px;
+    }
+    .optical{
+        margin-bottom: 8px;
+    }
+    .sunglasses{
+        flex-direction:row;
+        margin-bottom: 8px;
+    }
+    .sunglasses a{
+        justify-content: start;
+    }
+    .sunglasses .classificationImg{
+        margin-right: 32px;
+    }
+    .functional a img{
+        width: 23px;
+        height: 32px;
+    }
+    .co-branding{
+        background: center center no-repeat url('../images/bg.png');
+        background-size: cover;
+    }
+    .co-branding .container{
+        
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .co-brandingTittle {
+        margin-bottom: 32px;
+        font-size: 32px;
+    }
+    .DoubleA{
+        font-size: 32px;
+        height: 280px;
+       
+    }
+    .Youth{
+        font-size: 32px;
+        height: 280px;
+    }
+    .customerfeedbackTittle{
+        font-size: 32px;
+        margin-bottom: 32px;
+    }
+    .customerfeedbackContent{
+        flex-wrap: wrap;
+    }
+    .customerfeedback{
+        padding-top: 40px;
+        padding-bottom: 12px;
+    }
+    .feedbackContent{
+        width: 42%;
+        margin-bottom: 28px;
+    }
+    .contact{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .contactForm{
+        width: 450px;
+        font-size: 14px;
+    }
+    .contactTitle{
+        font-size: 32px;
+        margin-bottom: 16px;
+    }
+    .contactFormMain{
+        font-size: 16px;
+    }
+    .formName,.formTel,.formEmail,.formContent{
+        padding: 8px;
+        font-size: 14px;
+    }
+    .formCheck{
+        width: 17px;
+        height: 17px;
+    }
+    .check{
+        align-items: initial;
+    }
+    
+    .formButton{
+        width: 350px;
+        height: 54px;
+    }
+    
+    }
+    
+    /*---- 767~415 Phone----*/
+    @media(max-width: 767.9px) {
+    
+    
+    /*-------------Index-------------*/
+    .banner{
+        height: 394px;
+    }
+    .containerTittle{
+        font-size:32px;
+    }
+    .containerContent{
+        font-size: 16px;
+    }
+    .servicetcontentTittle{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .servicetcontentItem{
+        width: 65%;
+    }
+    
+    .servicetcontent .container{
+        padding-top: 32px;
+        padding-bottom: 12px;
+    }
+    .servicetcontentImg{
+        width: 80px;
+    }
+    .classification{
+        padding-top: 32px;
+        padding-bottom: 24px;
+    }
+    .classificationTittle{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .classificationLink{
+        position: absolute;
+        top: 53px;
+        left: 95px;
+    }
+    .classificationLinkImg{
+        display: none;
+    }
+    .classificationLinkHideImg{
+        display: block;
+    }
+    .classificationLinkWord{
+        color: #FFF;
+    }
+    .classificationImg{
+        width: 100%;
+    }
+    .optical,.sunglasses,
+    .functional{
+        position: relative;
+    }
+    .sunglasses .classificationImg{
+        margin-right: 0;
+    }
+    
+    .co-branding .container{
+        padding-bottom: 16px;
+        padding-top: 32px;
+    }
+    .co-brandingTittle {
+        margin-bottom: 20px;
+        font-size: 28px;
+    }
+    .co-brandingList{
+        flex-wrap: wrap;
+    }
+    .DoubleA{
+        width: 100%;
+        height: 284px;
+        margin-bottom: 16px;
+    }
+    .Youth{
+        width: 100%;
+        height: 284px;
+        margin-bottom: 16px;
+        
+    }
+    .customerfeedback{
+        padding-top: 32px;
+        padding-bottom: 16px;
+    }
+    .customerfeedbackTittle{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .feedbackContent{
+        width: 85%;
+        margin-bottom: 16px;
+    }
+    .contact{
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    .contactForm{
+        width: 345px;
+    }
+    
+    .contactTitle{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    
+    .formButton{
+        width: 165px;
+        height: 36px;
+    }
+    
+    
+    
+    }
+    
+    
+    /*---- 414~321 Phone----*/
+    @media(max-width: 414.9px) {
+        }
+    
+    /*---- 320 Phone----*/
+    @media(max-width: 320.9px) {
+    
+    /*-------------index-------------*/
+    .containerTittle{
+        font-size: 28px;
+    }
+    .contactForm{
+        width: 260px;
+    }
+    .servicetcontentWord{
+        display: none;
+    }
+    .servicetcontentList{
+        width:1200px ;
+        flex-wrap: nowrap;
+    
+    }
+    .servicetcontentItem{
+        width: 100%;
+    }
+    .classificationLinkWord{
+        font-size: 20px;
+    }
+    .customerfeedbackContent {
+        width: 1600px;
+        flex-wrap: nowrap;
+    }
+    .scroll{
+        overflow: scroll;
+        width: 305px;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .customerfeedback{
+        margin: 0;
+    }
+    
+    }

@@ -1,0 +1,431 @@
+
+/*--------   共用   --------*/
+
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.mg_0a{
+    margin: 0 auto;
+}
+/*字型*/
+.ff_Roboto{
+    font-family: "Roboto", sans-serif;
+}
+.ff_NotoSans{
+    font-family: "Noto Sans", sans-serif;
+}
+/*字體大小*/
+.fz_14{
+    font-size: 14px;
+}
+.fz_16{
+    font-size: 16px;
+}
+.fz_18{
+    font-size: 18px;
+}
+.fz_19{
+    font-size: 19px;
+}
+.fz_20{
+    font-size: 20px;
+}
+.fz_24{
+    font-size: 24px;
+}
+.fz_28{
+    font-size: 28px;
+}
+.fz_32{
+    font-size: 32px;
+}
+.fz_36{
+    font-size: 36px;
+}
+.fz_42{
+    font-size: 42px;
+}
+.fz_48{
+    font-size: 48px;
+}
+.fz_64{
+    font-size: 64px;
+}
+.fz_72{
+    font-size: 72px;
+}
+/*透明度*/
+.opacity_02{
+    opacity: 0.2;
+}
+/*字體粗度*/
+.fw_bold{
+    font-weight: bold;
+}
+.fw_black {
+    font-weight: 900;
+}
+.fw_medium{
+    font-weight: 400;
+}
+.fs_italic{
+    font-style:italic;
+}
+/*字體顏色*/
+.fc_white{
+    color: #fff;
+}
+.fc_darkbrand{
+    color: #650300;
+}
+.fc_darkred{
+    color: #AA0601;
+}
+.fc_light_gray{
+    color: #707070;
+}
+.fc_dark{
+    color:#000000;
+}
+.fc_dark_gray_2{
+    color:#555555;
+}
+.fc_dark_gray{
+    color:#495057;
+}
+.fc_light_gray_2{
+    color:#6C6C6C;
+}
+.fc_light_gray_3{
+    color:#0A0A0A;
+}
+/*背景色*/
+.bg_color_Crimson{
+    background-color: #AA0601;
+}
+.bg_color_darkPink{
+    background-color:#AA06010D;
+}
+.bg_color_drakBrown{
+    background-color: #5F3E2D;
+}
+.bg_color_darkOrange{
+    background-color: #B75929;
+}
+.bg_color_darkWhite{
+    background-color: rgba(240, 222, 222, 0.966);
+}
+.bg_color_dark{
+    background-color:#000000;
+}
+.bg_color_darkgray{
+    background-color:#495057;
+}
+.bg_color_darkred{
+    background-color:#650300;
+}
+.bg_transparent{
+    background: transparent;
+
+}
+
+/*文字對齊*/
+.ta_center{
+    text-align: center;
+}
+.ta_right{
+    text-align: right;
+}
+.ta_left{
+    text-align: left;
+}
+
+
+/*內推擠*/
+.pd_1{
+    padding: 8px;
+}
+.pd_2{
+    padding: 16px;
+}
+.pd_3{
+    padding: 24px;
+}
+.pd_4{
+    padding: 32px;
+}
+.pd_top_1{
+    padding-top:8px;
+}
+.pd_top_2{
+    padding-top: 16px;
+}
+.pd_top_3{
+    padding-top: 24px;
+}
+.pd_top_4{
+    padding-top: 32px;
+}
+.pd_top_5{
+    padding-top: 40px;
+}
+.pd_top_8{
+    padding-top: 64px;
+}
+.pd_top_10{
+    padding-top: 80px;
+}
+.pd_top_11{
+    padding-top: 88px;
+}
+.pd_bottom_1{
+    padding-bottom: 8px;
+}
+.pd_bottom_2{
+    padding-bottom: 16px;
+}
+.pd_bottom_3{
+    padding-bottom: 24px;
+}
+.pd_bottom_8{
+    padding-bottom: 64px;
+}
+.pd_bottom_10{
+    padding-bottom: 80px;
+}
+.pd_bottom_20{
+    padding-bottom: 160px;
+}
+.pd_bottom_33{
+    padding-bottom: 264px;
+}
+.pd_bottom_35{
+    padding-bottom: 280px;
+}
+.pd_left_2{
+    padding-left: 16px;
+}
+.pd_left_3{
+    padding-left: 24px;
+}
+.pd_right_2{
+    padding-right: 16px;
+}
+.pd_right_3{
+    padding-right: 24px;
+}
+.pd_right_4{
+    padding-right: 32px;
+}
+.pd_right_6{
+    padding-right: 48px;
+}
+
+/*外推擠*/
+.mg_right_1{
+    margin-right: 8px;
+}
+.mg_right_2{
+    margin-right: 16px;
+}
+.mg_right_3{
+    margin-right: 24px;
+}
+.mg_right_4{
+    margin-right: 32px;
+}
+.mg_right_6{
+    margin-right: 48px;
+}
+.mg_right_8{
+    margin-right: 64px;
+}
+.mg_left_1{
+    margin-left: 8px;
+}
+.mg_top_4{
+    margin-top: 32px;
+}
+.mg_bottom_1{
+    margin-bottom: 8px;
+}
+.mg_bottom_2{
+    margin-bottom: 16px;
+}
+.mg_bottom_3{
+    margin-bottom: 24px;
+}
+.mg_bottom_4{
+    margin-bottom: 32px;
+}
+.mg_bottom_5{
+    margin-bottom: 40px;
+}
+.mg_bottom_8{
+    margin-bottom: 64px;
+}
+.mg_bottom_10{
+    margin-bottom: 80px;
+}
+.mg_bottom_13{
+    margin-bottom: 104px;
+}
+.mg_bottom_21{
+    margin-bottom: 168px;
+}
+.mg_bottom_35{
+    margin-bottom: 280px;
+}
+.mg_bottom_38{
+    margin-bottom:304px;
+}
+
+
+
+/*Flex*/
+.dp_Flex{
+    display: flex;
+}
+.F_wrap{
+    flex-wrap: wrap;
+}
+.fd_colmun{
+    flex-direction: column;
+}
+.fd_row_reverse{
+    flex-direction: row-reverse;
+}
+.jc_center{
+    justify-content: center;
+}
+.jc_between{
+    justify-content: space-between;
+}
+.jc_around{
+    justify-content: space-around;
+}
+.jc_end{
+    justify-content:flex-end;
+}
+.ai_center{
+    align-items: center;
+}
+.ai_baseline{
+    align-items: baseline;
+}
+.ai_end{
+    align-items: flex-end;
+}
+/*區塊、行內*/
+.dp_block{
+    display: block;
+}
+.dp_none{
+    display: none;
+}
+.bx_border{
+    box-sizing: border-box;
+}
+/*高度*/
+.h_full{
+    height: 100%;
+}
+/*寬度*/
+.w_full{
+    width: 100%;
+}
+/*邊線*/
+.b_1_solid_lightwhite{
+    border: 1px solid #DEE2E6;
+
+}
+.b_1_solid_dark{
+    border: 1px solid #000000;
+
+}
+.b_1_solid_lightgray{
+    border: 1px solid #DCDCDC;
+}
+.b_1_solid_gray{
+    border: 1px solid #555555;
+}
+.b_1_solid_darkgray{
+    border: 1px solid #00000020;
+}
+.b_bottom_1_solid_white{
+    border-bottom: 1px solid #FFFFFF;
+}
+.b_bottom_1_solid_lightwhite{
+    border-bottom: 1px solid #DEE2E6;
+
+}
+.b_bottom_1_solid_dark{
+    border-bottom: 1px solid #000000;
+
+}
+.b_bottom_1_solid_lightgray{
+    border-bottom: 1px solid #DCDCDC;
+}
+.b_bottom_1_solid_gray{
+    border-bottom: 1px solid #555555;
+}
+.b_bottom_1_solid_darkgray{
+    border-bottom: 1px solid #00000020;
+}
+
+.active{ 
+    border-bottom:10px solid #AA0601;
+}
+
+
+
+/*-------------------- RWD --------------------*/
+
+/*---- 992~768 Pad----*/
+@media(max-width: 992px) {
+    /*--------   共用   --------*/
+    
+    .container{
+        max-width: 768px;
+        padding-left: 39px;
+        padding-right: 39px;
+    }
+    
+    
+    }
+    
+    /*---- 767~415 Phone----*/
+    @media(max-width: 767.9px) {
+    /*--------   共用   --------*/
+    
+    .container{
+        max-width: 375px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    }
+    
+    
+    /*---- 414~321 Phone----*/
+    @media(max-width: 414.9px) {
+    
+    /*--------   共用   --------*/
+    
+    .container{
+        max-width: 370px;
+        padding-left:0px;
+        padding-right: 0px;
+    }
+        }
+    
+    /*---- 320 Phone----*/
+    @media(max-width: 320.9px) {
+    .container{
+        max-width: 285px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    }
