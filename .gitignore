@@ -1,10 +1,6 @@
 public
 node_modules
 .publish
+dist
 .vscode
 .DS_Store
-gulpfile.js
-.browserslistrc
-.package
-.package-lock
-.README
