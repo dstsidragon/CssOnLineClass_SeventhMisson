@@ -1,0 +1,340 @@
+
+/*-------------Blog-------------*/
+.blogContentItem{
+    height: 400px;
+}
+.blogContentItemImg1{
+    width: 50%;
+    height: 100%;
+    background: center center no-repeat url(../images/blog-1.png);
+    background-size: cover;
+}
+.blogContentItemImg2{
+    width: 50%;
+    height: 100%;
+    background: center center no-repeat url(../images/blog-2.png);
+    background-size: cover;
+}
+.blogContentItemImg3{
+    width: 50%;
+    height: 100%;
+    background: center center no-repeat url(../images/blog-3.png);
+    background-size: cover;
+}
+.blogContentItemImg4{
+    width: 50%;
+    height: 100%;
+    background: center center no-repeat url(../images/blog-4.png);
+    background-size: cover;
+}
+.blogContentItemImg5{
+    width: 50%;
+    height: 100%;
+    background: center center no-repeat url(../images/blog-5.png);
+    background-size: cover;
+}
+.blogContentItemContent{
+    width: 49%;
+}
+
+.blogChangePage{
+    width: 368px;
+}
+.blogChangePage li:hover{
+    background-color: #000;
+}
+.blogChangePage a:hover{
+    color: #fff;
+}
+.blogContentItemContentMore2_table{
+    display: none;
+}
+
+/*--blog2--*/
+
+
+.blog2SideBar{
+    width: 22%;
+}
+.blog2Main{
+    width: 75%;
+}
+.blog2MainTittle2Img1{
+    background: center center no-repeat url(../images/blog-1.png);
+    background-size: cover;
+    height: 539px;
+}
+.blog2MainTittle2Img2{
+    background: center center no-repeat url(../images/blog-6.png);
+    background-size: cover;
+    height: 472px;
+}
+.blog2MainTittle2Img3{
+    background: center center no-repeat url(../images/blog-7.png);
+    background-size: cover;
+    height: 472px;
+}
+.blog2MainTittle2Img4{
+    background: center center no-repeat url(../images/blog-10.jpg);
+    background-size: cover;
+    height: 472px;
+}
+.iconUndo,.iconRedo{
+    width: 24px;
+}
+.blog2SideBarTagList{
+    width: 100%;
+}
+
+
+
+/*-------------------- RWD --------------------*/
+
+/*---- 992~768 Pad----*/
+@media(max-width: 992px) {
+    
+    /*-------------Blog-------------*/
+    .blogMenuItem{
+        font-size: 16px;
+    }
+    .blogMenubar{
+        margin-bottom: 40px;
+    }
+    .blogContentItem{
+        padding-top: 8px;
+        padding-bottom: 8px;
+        height: 206px;
+        margin-bottom: 32px;
+    }
+    .blogContentItemContentTitle{
+        font-size: 20px;
+    }
+    .blogContentItemContentTitle2Main{
+        font-size: 16px;
+    }
+    .blogContentItemContentTitle2Main2{
+        font-size: 14px;
+    }
+    .blogContentItemContentText,.blogContentItemContentMore{
+        display:none;
+    }
+    .blogContentItemContentTitle2{
+        margin-bottom: 8px;
+    }
+    .blogContentItemContentMore2_table{
+        display: block;
+    }
+    .blogChangePage{
+        margin-bottom: 104px;
+    }
+    .blogContent{
+        margin-bottom: 82px;
+    }
+    
+    
+    
+    /*--blog2--*/
+    .blog2BannerUrl{
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    .blog2BannerTag{
+        font-size: 16px;
+    }
+    .blog2MainTittle{
+        font-size: 32px;
+    }
+    .blog2MainTittle2Name{
+        font-size: 16px;
+    }
+    .blog2MainTittle2Date{
+        font-size: 14px;
+    }
+    .blog2MainTittle2{
+        margin-bottom: 16px;
+    }
+    .blog2MainTittle2Img1{
+        height: 333px;
+        margin-bottom: 16px;
+    }
+    .blog2MainContent{
+        font-size: 16px;
+        margin-bottom: 24px;
+        color: #0A0A0A;
+        opacity: 0.6;
+    }
+    .blog2MainTittle2Img2,.blog2MainTittle2Img3,.blog2MainTittle2Img4{
+        height: 292px;
+    }
+    .blog2MainContent{
+        margin-bottom: 24px;
+    }
+    .blog2MainShare{
+        padding-top: 0;
+        margin-bottom: 16px;
+    }
+    .blog2MainChangePage{
+        margin-bottom: 104px;
+    }
+    .blog2SideBarTittle{
+        font-size: 20px;
+    }
+    .blog2SideBarTagList{
+        font-size: 16px;
+    }
+    .blog2Main{
+        width: 80%;
+    }
+    .blog2SideBar{
+        width: 15%;
+    }
+    
+    }
+    
+    /*---- 767~415 Phone----*/
+    @media(max-width: 767.9px) {
+    /*-------------Blog-------------*/
+    .blogMenubar,.blogContentItemContentMore2_table{
+        display: none;
+    }
+    .blogContent{
+        padding-top: 24px;
+    }
+    .blogContentItemImg1,.blogContentItemImg2,
+    .blogContentItemImg3,.blogContentItemImg4,
+    .blogContentItemImg5{
+        display: none;
+        width: 100%;
+        height: 193px;
+    }
+    .imgLink_mobile{
+        display: block;
+    }
+    .blogContentItem{
+        display: block;
+        padding-bottom: 0px;
+        height: auto;
+        margin-bottom: 26px;
+    }
+    .blogContentItemContentTitle{
+        font-size: 16px;
+    }
+    .blogContentItemContentTitle2Main{
+        font-size: 14px;
+    }
+    .blogContentItemContent{
+        width: 100%;
+    }
+    .blogContentItemContentMoreLink{
+        margin-bottom: 8px;
+    }
+    
+    
+    
+    
+    .blogMenuItem{
+        font-size: 16px;
+    }
+    
+    .blogChangePage{
+        margin-bottom: 56px;
+    }
+    .blogContent{
+        margin-bottom: 13px;
+    }
+    
+    
+    
+    /*--blog2--*/
+    .searchLink{
+        display: none;
+    }
+    .blogMenuList{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .blogMenuLink{
+        margin-right: 0;
+    }
+    .blog2BannerUrl{
+        margin-bottom: 6px;
+    }
+    .blog2BannerTag{
+        font-size: 14px;
+    }
+    .blog2MainTittle{
+        font-size: 20px;
+    }
+    .blog2MainTittle2Name{
+        font-size: 14px;
+    } 
+    .blog2MainTittle2{
+        margin-bottom: 19px;
+    }
+    .blog2MainTittle2Img2,.blog2MainTittle2Img3,.blog2MainTittle2Img4{
+        height: 169px;
+    }
+    .blog2MainTittle2Img1{
+        height: 193px;
+    }
+    .blog2MainContent{
+        margin-bottom:24px;
+    }
+    .blog2Main{
+        width: 90%;
+    }
+    .blog2SideBar{
+        width: 90%;
+        margin-bottom: 56px;
+    }
+    .blog2Content{
+        display: block;
+    }
+    .blog2MainChangePage{
+        margin-bottom: 39px;
+    }
+    .blog2SideBarTagList{
+        justify-content: start;
+    }
+    .blog2SideBarTag{
+        margin-right: 8px;
+    }
+    .blog2MainChangePage{
+        flex-wrap: wrap
+    }
+    .blog2MainChangePageNext{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .iconUndo {
+        width: 16px;
+    }
+    .iconRedo{
+        width: 16px;
+        margin-right:8px;
+        margin-left: 0;
+    }
+    
+    
+    
+    }
+    
+    
+    /*---- 414~321 Phone----*/
+    @media(max-width: 414.9px) {
+    
+    .blog2Main{
+        width:100%;
+    }
+    
+   
+        }
+    
+    /*---- 320 Phone----*/
+    @media(max-width: 320.9px) {
+    
+    .blogMenuLink{
+        font-size: 14px;
+    }
+    
+    }

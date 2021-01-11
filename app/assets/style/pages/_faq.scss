@@ -1,0 +1,89 @@
+
+/*-------------FAQ-------------*/
+.faqBanner{
+    height: 304px;
+    background:center center url(../images/qa.png);
+}
+.faqBannerHeaderIcon{
+    width: 58px;
+    height: 58px;
+}
+.faqBannerHeader{
+    height: 100%;
+}
+.faqContentItemContent{
+    width: 900px;
+}
+.blogMenu a:hover{
+    outline: 1px solid rgb(25, 167, 192);
+}
+
+
+
+
+/*-------------------- RWD --------------------*/
+
+/*---- 992~768 Pad----*/
+@media(max-width: 992px) {
+    /*-------------FAQ-------------*/
+    .faqBannerHeaderWord{
+        font-size: 48px;
+    }
+    .faqBannerHeaderIcon{
+        width: 48px;
+        height: 48px;
+    }
+    
+    .faqContentItemContent{
+        width: 630px;
+    }
+    .faqContent{
+        padding-top: 40px;
+        padding-bottom: 64px;
+    }
+    .faqContentTittle{
+        margin-bottom: 36px;
+    }
+    
+    
+    }
+    
+    /*---- 767~415 Phone----*/
+    @media(max-width: 767.9px) {
+    /*-------------FAQ-------------*/
+    .faqBannerHeaderWord{
+        font-size:28px;
+    }
+    .faqBannerHeaderIcon{
+        width: 24px;
+        height: 24px;
+    }
+    .faqContent{
+        padding-top:24px;
+        padding-bottom: 36px;
+    }
+    .faqContentItemContent{
+        width: auto;
+    }
+    .faqContentTittle{
+        margin-bottom: 8px;
+    }
+    .faqContentItem{
+        margin-bottom: 20px;
+    }
+
+    
+    
+    
+    }
+    
+    
+    /*---- 414~321 Phone----*/
+    @media(max-width: 414.9px) {
+    
+        }
+    
+    /*---- 320 Phone----*/
+    @media(max-width: 320.9px) {
+    
+    }

@@ -1,0 +1,250 @@
+
+/*-------------Location-------------*/
+.locationBanner{
+    height: 304px;
+    background:center center no-repeat url(../images/qa.png);
+    background-size: cover;
+}
+.locationBannerHeaderIcon{
+    width: 40px;
+    height: 58px;
+}
+.locationBannerHeader{
+    height: 100%;
+}
+.locationContentItem{
+    width: 32%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.locationContentItem1 .locationContentItemImg{
+    height: 224px;
+    background: center center no-repeat url(../images/locate1.jpeg);
+    background-size: cover;
+}
+.locationContentItem2 .locationContentItemImg{
+    height: 224px;
+    background: center center no-repeat url(../images/locate2.jpg);
+    background-size: cover;
+}
+.locationContentItem3 .locationContentItemImg{
+    height: 224px;
+    background: center center no-repeat url(../images/locate3.jpg);
+    background-size: cover;
+}
+.locationContentItem4 .locationContentItemImg{
+    height: 224px;
+    background: center center no-repeat url(../images/locate4.jpg);
+    background-size: cover;
+}
+.locationContentItem5 .locationContentItemImg{
+    height: 224px;
+    background: center center no-repeat url(../images/locate5.jpg);
+    background-size: cover;
+}
+.locationContentItemInfo img{
+    width: 20px;
+    height: 20px;
+}
+.locationContentItemButton{
+    width: 100%;
+}
+.locationContentItemButton:hover{
+    background-color: rgb(25, 167, 192);
+}
+.locationSelect{
+    width: 324px;
+    height: 45px;
+    border: 1px solid #CED4DA;
+}
+
+/*--local2--*/
+.locationContent2Item{
+    width: 40%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+.locationContent2Item .locationContentItemImg{
+    height: 224px;
+    background: center center no-repeat url(../images/locate1.jpeg);
+    background-size: cover;
+
+}
+.location2Map{
+    width: 57%;
+    height: 442px;
+}
+.location2ContentBackup{
+    width: 80%;
+}
+
+
+
+
+
+/*-------------------- RWD --------------------*/
+
+/*---- 992~768 Pad----*/
+@media(max-width: 992px) {
+   
+    
+    /*-------------Location-------------*/
+    .locationContent{
+        padding-bottom: 84px;
+    }
+    .locationBannerHeaderIcon{
+        width: 30px;
+        height: 43px;
+    }
+    .locationBannerHeaderWord{
+        font-size: 48px;
+    }
+    .changeCityName{
+        font-size: 16px;
+    }
+    .locationSelect{
+        font-size: 16px;
+        width: 237px;
+    }
+    .locationContentList{
+        justify-content: space-between;
+    }
+    
+    .locationContentItem{
+        width:48%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    
+    .locationContentItem1 .locationContentItemImg,.locationContentItem2 .locationContentItemImg,.locationContentItem3 .locationContentItemImg,.locationContentItem4 .locationContentItemImg,.locationContentItem5 .locationContentItemImg{
+        height: 164px;
+    }
+    
+    
+    
+    /*--local2--*/
+    .locationContent2List{
+        flex-wrap: wrap;
+    }
+    
+    .locationContent2Item{
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+        margin-bottom: 32px;
+    }
+    .locationContent2List .locationContentItem1,.locationContentItem2Content{
+        width: 47%;
+    }
+    .locationContentItem2Content{
+        font-size: 16px;
+    }
+    .locationContent2List .locationContentItemTime,.locationContent2List .locationContentItemTel,.locationContent2List .locationContentItemAddress{
+        font-size: 14px;
+    }
+    
+    
+    
+    
+    .locationContent2Item .locationContentItemImg{
+        height: 224px;
+        background: center center no-repeat url(../images/locate1.jpeg);
+        background-size: cover;
+    
+    }
+    .location2Map{
+        width:100%;
+        height: 465px;
+    }
+    .location2ContentBackup{
+        width: 80%;
+    }
+
+    }
+    
+    /*---- 767~415 Phone----*/
+    @media(max-width: 767.9px) {
+    /*-------------Location-------------*/
+    .locationBanner{
+        height: 143px;
+    }
+    .locationContent{
+        padding-bottom: 40px;
+    }
+    .locationBannerHeaderIcon{
+        width: 17px;
+        height: 24px;
+    }
+    .locationBannerHeaderWord{
+        font-size: 28px;
+    }
+    .changeCityName{
+        font-size: 14px;
+    }
+    .locationSelect{
+        font-size: 14px;
+        width: 288px;
+        height: 36px;
+    }
+    .locationContentItem{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .locationContentItemName{
+        font-size: 16px;
+    }
+    .locationContentItemTel,.locationContentItemTime,.locationContentItemAddress{
+        font-size: 14px;
+    }
+    .locationContentItemButton{
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    
+    
+    
+    /*--local2--*/
+    
+    .locationContent2Item{
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        display: block;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+        margin-bottom: 32px;
+    }
+    .locationContent2List .locationContentItem1,.locationContentItem2Content{
+        width:100%;
+    }
+   
+    
+    
+    }
+    
+    
+    /*---- 414~321 Phone----*/
+    @media(max-width: 414.9px) {
+   
+        }
+    
+    /*---- 320 Phone----*/
+    @media(max-width: 320.9px) {
+    
+    /*-------------Local-------------*/
+    .locationContentList{
+        height: 905px;
+        overflow: hidden;
+    }
+    .ChangePageMobile{
+        display: flex;
+    }
+   
+    
+    }
